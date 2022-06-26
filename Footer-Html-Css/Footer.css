@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+footer{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px black;
+    margin:0px;
+    padding: 20px;
+    display: block;
+    margin-top: 20px;
+    font-family: 'Noto Sans',Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(255, 255, 255);
+}
+
+.credenciais{
+    color: white
+}
+
+.feedback a{
+    color: white;   
+}
+
+/* coloca a cor de um link visitado de branco - Paulo Kenji */
+.feedback a:visited{
+    color: white;   
+    
+}
+/* quando passa o mouse sobre o reclame aqui, ele fica vermelho- Thiago César Souza */
+.feedback a:hover{
+    color: #f40303;
+}
