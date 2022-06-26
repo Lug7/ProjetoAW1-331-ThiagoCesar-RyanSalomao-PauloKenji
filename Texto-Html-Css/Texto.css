@@ -1,0 +1,16 @@
+/*Importando fonte externa*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+/* Personalizando fonte e o backgound, e configurando padding e margin */
+body{ 
+    background-color: rgb(25, 25, 25);
+    font-family: 'Noto Sans',Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(255, 255, 255);
+    margin:0px;
+    padding: 0px;
+}
+
+p{
+    margin: 20px;
+}
