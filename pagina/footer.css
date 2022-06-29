@@ -1,0 +1,21 @@
+footer{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px black;
+    margin:0px;
+    padding: 20px;
+    display: block;
+    margin-top: 20px;
+}
+
+.FooterCol-2 a{
+    color: white;   
+}
+
+.FooterCol-2 a:visited{
+    color: white;   
+    
+}
+
+.FooterCol-2 a:hover{
+    color: #f40303;
+}
