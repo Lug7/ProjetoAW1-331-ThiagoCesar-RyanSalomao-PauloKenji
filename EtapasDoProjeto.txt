@@ -1,0 +1,4 @@
+
+Definir o nome do Projeto
+
+Implementar os recursos requiridos no projeto, campo search, forms, listas etc.
