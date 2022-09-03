@@ -81,3 +81,34 @@
     display: none;
 }
 
+.informations{
+    text-align: center;
+    padding: 1px;
+    font-size: 30px;
+    
+}
+
+
+#divBusca{
+    background-color: rgb(61, 58, 58);
+    border:solid 1px;
+    border-radius:15px;
+    width:400px;
+    float:left;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    
+}
+  
+#txtBusca{
+float:left;
+background-color:transparent;
+padding-left:5px;
+font-style:italic;
+font-size:18px;
+border:none;
+height:32px;
+width:393px;
+
+}
