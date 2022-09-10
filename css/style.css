@@ -112,3 +112,28 @@ height:32px;
 width:393px;
 
 }
+
+table{
+    margin-left: 50%;
+    transform: translate(-50%,0%);
+    border: 2px solid white;
+    font-size: 30px;
+    border-collapse: collapse;
+}
+
+table td{
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+table th {
+    background: #f40b03;
+    color: white;
+    box-shadow: 0 0 0px #f40b03,
+                0 0 5px #f40b03,
+                0 0 25px #f40303,
+                0 0 50px #f40303;
+
+    /*faz um efeito neon */
+
+}
