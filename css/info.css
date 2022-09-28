@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+  
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    font-family:'Noto Sans',Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(25, 25, 25);
+  }
+
+  .bodypage{
+    text-align: center;
+    color: white; 
+}
+
+
+
+.bodypage p a{
+    color: white;
+}
+
+  
+  strong {
+    padding: 0;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #555;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .container-pricing {
+    margin: 0 auto;
+    max-width: 700px;
+    text-align: center;
+    width: 100%;
+  }
+  .container-pricing h1 {
+    letter-spacing: 1px;
+  }
+  .container-pricing p {
+    color: #555;
+    letter-spacing: 1px;
+  }
+  
+  .pricing-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    max-width: 800px;
+    width: 100%;
+  }
+  @media (max-width: 808px) {
+    .pricing-list {
+      flex-wrap: wrap;
+    }
+  }
+  .pricing-list .item {
+    background: #fff;
+    border: 1px solid #f1f1f1;
+    max-width: 280px;
+    padding: 15px 20px 15px 20px;
+    width: 100%;
+  }
+  @media (max-width: 768px) {
+    .pricing-list .item {
+      max-width: 100%;
+    }
+  }
+  .pricing-list .item strong {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .pricing-list .item .pricing-prices {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  .pricing-list .item .pricing-prices strong {
+    font-size: 40px;
+    margin: 0 5px;
+  }
+  .pricing-list .item.professional {
+    background: #f82727;
+    border: 0;
+    box-shadow: inset 0px 20px 44px -13px rgba(0, 0, 0, 0.31);
+    color: #fff;
+    position: relative;
+    transform: scale(1.06);
+  }
+  .pricing-list .item.professional .btn-start {
+    border-color: #fff;
+    color: #fff;
+  }
+  .pricing-list .item.professional .btn-start:hover {
+    background: #fff;
+    box-shadow: 2px 3px 43px 0px rgba(0, 0, 0, 0.42);
+    color: #545bc4;
+  }
+  .pricing-list .pricing-list-features-item {
+    align-items: center;
+    display: flex;
+    margin: 15px 0;
+  }
+  .pricing-list .pricing-list-features-item .fas {
+    color: #2ecc71;
+    font-size: 12px;
+    margin-right: 5px;
+  }
+  
+  .btn-start {
+    border: 1px solid #545bc4;
+    color: #545bc4;
+    display: block;
+    margin-top: 20px;
+    padding: 15px 0;
+    text-align: center;
+    transition: 100ms all linear 0s;
+    width: 100%;
+  }
+  .btn-start:hover {
+    background: #545bc4;
+    color: #fff;
+
+    
+  }
+
+h2{
+    font-size: 2.3em;
+    color:white;
+}
+h3{
+    padding: 5px;
+    color: white;
+}
+
+
+.text{
+  width: 50%;
+  float: left;
+  color:white;
+  text-align: justify;
+  
+  margin-left: 50px;
+    
+}
+
+.textImages{
+  width: 40%;
+  float: right;
+  text-align: left;
+  margin-right: 50px;  
+}
+
+.textImages li{
+  text-align: left;
+  color:white;
+  padding: 0;
+}
+
+.textImages ul{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
