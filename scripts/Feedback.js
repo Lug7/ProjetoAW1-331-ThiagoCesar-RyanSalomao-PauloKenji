@@ -14,7 +14,8 @@ function validação(){
     if(email.value == ""){
         alert("O campo de email não pode estar vazio");
         email.focus();
-    }
+
+    }else
     if(texto.value == ""){
         alert("O campo do feedback não pode estar vazio");
         texto.focus();
