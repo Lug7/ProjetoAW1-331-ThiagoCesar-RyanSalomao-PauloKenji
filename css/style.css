@@ -3,6 +3,26 @@
     color: white; 
 }
 
+
+
+/* .MovieToday{
+    color: #fff;
+    position: absolute;
+    top	: 10px;
+    left: 40px;
+    font-size: 50px;
+    text-shadow: 3px 3px 10px rgb(0, 0, 0);
+} */
+/* 
+.slider {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+} */
+
+
 .bodypage img{
     margin-top: 1%;
     box-shadow: 0px 2px 10px black;
@@ -80,37 +100,33 @@
 .images input {
     display: none;
 }
+/* .dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid #fff 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+.dots label:hover {background: #fff;}
+#img1:checked ~ .m1 {
+    margin-left: 0;
+}
+#img2:checked ~ .m2 {
+    margin-left: -100%;
+} */
 
 .informations{
     text-align: center;
     padding: 1px;
     font-size: 30px;
     
-}
-
-
-#divBusca{
-    background-color: rgb(61, 58, 58);
-    border:solid 1px;
-    border-radius:15px;
-    width:400px;
-    float:left;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%,0);
-    
-}
-  
-#txtBusca{
-float:left;
-background-color:transparent;
-padding-left:5px;
-font-style:italic;
-font-size:18px;
-border:none;
-height:32px;
-width:393px;
-
 }
 
 table{
@@ -135,5 +151,31 @@ table th {
                 0 0 50px #f40303;
 
     /*faz um efeito neon */
+
+}
+
+
+
+#divBusca{
+    background-color: rgb(61, 58, 58);
+    border:solid 1px;
+    border-radius:15px;
+    width:400px;
+    float:left;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    
+}
+
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:393px;
 
 }
