@@ -125,6 +125,7 @@ table{
 table td{
     border: 2px solid white;
     border-collapse: collapse;
+    padding: 1rem;
 }
 
 table th {
@@ -139,9 +140,8 @@ table th {
 
 }
 
-
-
 #divBusca{
+    margin-top: 1rem;
     background-color: rgb(61, 58, 58);
     border:solid 1px;
     border-radius:15px;
