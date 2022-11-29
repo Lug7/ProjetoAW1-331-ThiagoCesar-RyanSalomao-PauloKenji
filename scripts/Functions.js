@@ -7,15 +7,15 @@ function plusDivs(n){
 }
 
 function showDivs(n){
-    var slides = document.getElementsByClassName("MovieBanner");
+    var slides = $(".MovieBanner");
     if(n > slides.length){
-        slideIndex = 1;
+        slideIndex = 1; 
     }
     if(n < 1){
         slideIndex = slides.length;
     }
-    for(var i = 0; i < slides.length; i++){
-        slides[i].style.display = "none";
-    }
-    slides[slideIndex-1].style.display = "block";
+    $(".MovieBanner").each(function( index ){
+        $(this).css("display", "none");
+    })
+    $(slides[slideIndex-1]).css("display", "block");
 }
